@@ -3,38 +3,43 @@ package Controlador;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import javax.swing.JOptionPane;
 
 public class control_conexion {
-    private String usu;
-    private String pass;
-    private String url;
-    //Atributo de tipo Conexion
-    Connection con=null;
+    // Atributo de tipo Connection
+    Connection con = null;
 
-    //Constructor
+    // Constructor
     public control_conexion() {
-        this.usu="root";
-        this.pass="";
-        this.url="jdbc:mysql://127.0.0.1/biblioteca";
     }
-    //Conectar
-    public void conectar(){
+
+    // Método para conectar
+    public void conectar() {
         try {
-            Class.forName("com.mysql.jdbc.Driver");
-            con=DriverManager.getConnection(url,
-                    usu,pass);
-        } catch (ClassNotFoundException | SQLException ex) {
-            System.out.println("Error al conectar");
+            String db = "jdbc:mysql://localhost:3306/biblioteca"; 
+            con = DriverManager.getConnection(db, "root", ""); // Conexión a la base de datos
+            if (con != null) {
+                System.out.println("Conexión establecida con éxito.");
+            }
+        } catch (SQLException e) {
+            JOptionPane.showMessageDialog(null, "Error en la conexión. " + e.getMessage());
         }
     }
-    //Desconectar
-    public void cerrar(){
-        con=null;
+
+    // Método para desconectar
+    public void cerrar() {
+        if (con != null) {
+            try {
+                con.close(); // Cierra la conexión a la base de datos
+                System.out.println("Conexión cerrada.");
+            } catch (SQLException e) {
+                JOptionPane.showMessageDialog(null, "Error al cerrar la conexión. " + e.getMessage());
+            }
+        }
     }
-    //Estado de la conexión
-    public Connection estado(){
+
+    // Método para obtener el estado de la conexión
+    public Connection estado() {
         return con;
     }
 }

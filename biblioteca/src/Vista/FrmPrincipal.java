@@ -62,16 +62,17 @@ this.setLocation(350, 0);
         jToolBar1.add(jSeparator1);
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel2.setText("hora y fecha");
+        jLabel2.setText("Hora y Fecha: ");
         jToolBar1.add(jLabel2);
 
         getContentPane().add(jToolBar1);
         jToolBar1.setBounds(20, 410, 470, 25);
 
-        jPanel1.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel1.setBackground(new java.awt.Color(148, 148, 153));
 
-        jButton5.setBackground(new java.awt.Color(153, 255, 255));
+        jButton5.setBackground(new java.awt.Color(193, 223, 255));
         jButton5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton5.setForeground(new java.awt.Color(50, 50, 50));
         jButton5.setText("Devoluciones");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -79,8 +80,9 @@ this.setLocation(350, 0);
             }
         });
 
-        jButton3.setBackground(new java.awt.Color(153, 255, 255));
+        jButton3.setBackground(new java.awt.Color(193, 223, 255));
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton3.setForeground(new java.awt.Color(50, 50, 50));
         jButton3.setText("Autores");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -88,8 +90,9 @@ this.setLocation(350, 0);
             }
         });
 
-        jButton1.setBackground(new java.awt.Color(153, 255, 255));
+        jButton1.setBackground(new java.awt.Color(193, 223, 255));
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(50, 50, 50));
         jButton1.setText("Usuarios");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -97,8 +100,9 @@ this.setLocation(350, 0);
             }
         });
 
-        jButton2.setBackground(new java.awt.Color(153, 255, 255));
+        jButton2.setBackground(new java.awt.Color(193, 223, 255));
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(50, 50, 50));
         jButton2.setText("Libros");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -106,8 +110,9 @@ this.setLocation(350, 0);
             }
         });
 
-        jButton4.setBackground(new java.awt.Color(153, 255, 255));
+        jButton4.setBackground(new java.awt.Color(193, 223, 255));
         jButton4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton4.setForeground(new java.awt.Color(50, 50, 50));
         jButton4.setText("Editoriales");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -115,8 +120,9 @@ this.setLocation(350, 0);
             }
         });
 
-        jButton6.setBackground(new java.awt.Color(153, 255, 255));
+        jButton6.setBackground(new java.awt.Color(193, 223, 255));
         jButton6.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton6.setForeground(new java.awt.Color(50, 50, 50));
         jButton6.setText("Prestamo");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -161,8 +167,9 @@ this.setLocation(350, 0);
         getContentPane().add(jPanel1);
         jPanel1.setBounds(90, 112, 310, 170);
 
-        jButton7.setBackground(new java.awt.Color(0, 204, 204));
+        jButton7.setBackground(new java.awt.Color(79, 191, 191));
         jButton7.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton7.setForeground(new java.awt.Color(91, 87, 87));
         jButton7.setText("Salir");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -170,7 +177,7 @@ this.setLocation(350, 0);
             }
         });
         getContentPane().add(jButton7);
-        jButton7.setBounds(180, 570, 127, 25);
+        jButton7.setBounds(160, 560, 127, 27);
 
         jLabel3.setBackground(new java.awt.Color(204, 204, 255));
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/foto7702.png"))); // NOI18N
@@ -193,9 +200,9 @@ this.setLocation(350, 0);
         escritorio.setBounds(570, 50, 880, 750);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel1.setText("Colegio Regional del Maule");
+        jLabel1.setText("Colegio \"Alte. Gillermo Brown N°36\"");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(150, 490, 182, 17);
+        jLabel1.setBounds(100, 490, 280, 17);
         setJMenuBar(jMenuBar4);
 
         pack();
@@ -216,19 +223,23 @@ this.setLocation(350, 0);
                                          
     }//GEN-LAST:event_formWindowOpened
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         // TODO add your handling code here:
-   // new FrmUsuario().setVisible(true);
-   // this.dispose();
-        
-        
-        vista_usuario internal = new vista_usuario();
-       this.escritorio.add(internal);
-        internal.show();    
-        
-      //  new FrmUsuario().setVisible(true);
-     //   this.dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
+        this.dispose();
+    }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        // TODO add your handling code here:
+
+        new FrmTransaccion().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        // TODO add your handling code here:
+        new FrmEditorial().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
@@ -236,35 +247,30 @@ this.setLocation(350, 0);
         this.dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+        // new FrmUsuario().setVisible(true);
+        // this.dispose();
+
+        vista_usuario internal = new vista_usuario();
+        this.escritorio.add(internal);
+        internal.show();
+
+        //  new FrmUsuario().setVisible(true);
+        //   this.dispose();
+    }//GEN-LAST:event_jButton1ActionPerformed
+
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
-       new FrmAutor().setVisible(true);
-       this.dispose();
+        new FrmAutor().setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_jButton3ActionPerformed
-
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        // TODO add your handling code here:
-       new FrmEditorial().setVisible(true);
-       this.dispose();
-    }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
-       new FrmDevolucion().setVisible(true);
-       this.dispose();
-    }//GEN-LAST:event_jButton5ActionPerformed
-
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        // TODO add your handling code here:
-        
-       new FrmTransaccion().setVisible(true);
-       this.dispose();
-    }//GEN-LAST:event_jButton6ActionPerformed
-
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        // TODO add your handling code here:
+        new FrmDevolucion().setVisible(true);
         this.dispose();
-    }//GEN-LAST:event_jButton7ActionPerformed
+    }//GEN-LAST:event_jButton5ActionPerformed
 
     /**
      * @param args the command line arguments

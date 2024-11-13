@@ -2,6 +2,25 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/PC/Desktop/Proyecto%20Java/bibliotecajava/biblioteca/src/Vista/FrmPrincipal.java</file>
+            <file>file:/C:/Users/PC/Desktop/Proyecto%20Java/bibliotecajava/biblioteca/src/Controlador/Email.java</file>
+            <file>file:/C:/Users/PC/Desktop/Proyecto%20Java/bibliotecajava/biblioteca/src/Controlador/libro.java</file>
+            <file>file:/C:/Users/PC/Desktop/Proyecto%20Java/bibliotecajava/biblioteca/src/Modelo/autores.java</file>
+            <file>file:/C:/Users/PC/Desktop/Proyecto%20Java/bibliotecajava/biblioteca/src/Controlador/control_conexion.java</file>
+            <file>file:/C:/Users/PC/Desktop/Proyecto%20Java/bibliotecajava/biblioteca/src/Controlador/Editorial.java</file>
+            <file>file:/C:/Users/PC/Desktop/Proyecto%20Java/bibliotecajava/biblioteca/src/Vista/FrmDevolucion.java</file>
+            <file>file:/C:/Users/PC/Desktop/Proyecto%20Java/bibliotecajava/biblioteca/src/Vista/frmlogin.java</file>
+            <file>file:/C:/Users/PC/Desktop/Proyecto%20Java/bibliotecajava/biblioteca/src/Vista/vista_usuario.java</file>
+            <file>file:/C:/Users/PC/Desktop/Proyecto%20Java/bibliotecajava/biblioteca/src/Vista/FrmUsuario.java</file>
+            <file>file:/C:/Users/PC/Desktop/Proyecto%20Java/bibliotecajava/biblioteca/src/Controlador/devolucion.java</file>
+            <file>file:/C:/Users/PC/Desktop/Proyecto%20Java/bibliotecajava/biblioteca/src/Controlador/usuario.java</file>
+            <file>file:/C:/Users/PC/Desktop/Proyecto%20Java/bibliotecajava/biblioteca/src/Controlador/autor.java</file>
+            <file>file:/C:/Users/PC/Desktop/Proyecto%20Java/bibliotecajava/biblioteca/src/Modelo/preguntas.java</file>
+            <file>file:/C:/Users/PC/Desktop/Proyecto%20Java/bibliotecajava/biblioteca/src/Vista/FrmTransaccion.java</file>
+            <file>file:/C:/Users/PC/Desktop/Proyecto%20Java/bibliotecajava/biblioteca/src/Controlador/transaccion.java</file>
+            <file>file:/C:/Users/PC/Desktop/Proyecto%20Java/bibliotecajava/biblioteca/src/Modelo/devoluciones.java</file>
+            <file>file:/C:/Users/PC/Desktop/Proyecto%20Java/bibliotecajava/biblioteca/src/Modelo/personas.java</file>
+        </group>
     </open-files>
 </project-private>
